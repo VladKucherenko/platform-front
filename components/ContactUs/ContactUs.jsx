@@ -1,0 +1,93 @@
+import React from 'react'
+import { useTranslation } from 'next-i18next'
+
+const ContactUs = () => {
+  const { t } = useTranslation('contacts')
+  return (
+    <div>
+      <div className="container my-3">
+        <div style={{ backgroundColor: '#8cdac8', borderRadius: '8px' }}>
+          <div className="row">
+            <div className="col-12 col-md-6 col-lg-4 p-5 m-auto">
+              <h3 className="content-title mb-2">{t('title')}</h3>
+              <p className="content-text">{t('description')}</p>
+              <a className="contact-link" href="https://t.me/vlad_kucherenko">
+                <div className="d-flex mt-5 contacts-links py-1">
+                  <i className="fab fa-telegram contacts-illustration"/>
+                  <p className="contacts-text">@vlad_kucherenko</p>
+                </div>
+              </a>
+              <a className="contact-link" href="mailto:vladkycherenko98@gmail.com">
+                <div className="d-flex contacts-links py-1">
+                  <i className="fas fa-envelope contacts-illustration"/>
+                  <p className="contacts-text">vlad_kucherenko</p>
+                </div>
+              </a>
+            </div>
+            <div className="col-12 col-md-6 col-lg-8 m-auto">
+              <img className="content-image" src="/4.png" alt="photo"/>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* <div className="container my-5">*/
+      }
+      {/*  <div className="row">*/
+      }
+      {/*    <div className="col-12 col-md-6">*/
+      }
+      {/*      <div className="row">*/
+      }
+      {/*        <div className="col-3 col-md-3">*/
+      }
+      {/*          <i className="fas fa-envelope" style={{ fontSize: '60px', marginBottom: '20px' }}/>*/
+      }
+      {/*          <a href="mailto:edwardkvashin@gmail.com">edwardkvashin@gmail.com</a>*/
+      }
+      {/*        </div>*/
+      }
+      {/*        <div className="col-9 col-md-9">*/
+      }
+      {/*          <h3 className="contact-title">Email</h3>*/
+      }
+      {/*          <a href="mailto:edwardkvashin@gmail.com">edwardkvashin@gmail.com</a>*/
+      }
+      {/*        </div>*/
+      }
+      {/*      </div>*/
+      }
+      {/*    </div>*/
+      }
+      {/*    <div className="col-12 col-md-6">*/
+      }
+      {/*      <div className="row">*/
+      }
+      {/*        <div className="col-3 col-md-3">*/
+      }
+      {/*          <i className="fab fa-telegram" style={{ fontSize: '60px' }}/>*/
+      }
+      {/*          <a href="https://t.me/EdwardDK">@EdwardDK</a>*/
+      }
+      {/*        </div>*/
+      }
+      {/*        <div className="col-9 col-md-9">*/
+      }
+      {/*          <h3 className="contact-title">Telegram</h3>*/
+      }
+      {/*          <a href="https://t.me/EdwardDK">@EdwardDK</a>*/
+      }
+      {/*        </div>*/
+      }
+      {/*      </div>*/
+      }
+      {/*    </div>*/
+      }
+      {/*  </div>*/
+      }
+      {/* </div>*/
+      }
+    </div>
+  )
+}
+
+export default ContactUs

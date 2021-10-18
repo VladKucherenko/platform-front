@@ -1,0 +1,72 @@
+.editor-preview-image{
+    width: 100%;
+    border-radius: 8px;
+}
+.editor-lesson-block{
+    border-radius: 8px;
+    border: 1px solid #0070f3;
+}
+.editor-title{
+    margin: 0;
+    font-size: 30px;
+}
+.editor-lesson-title{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+}
+.editor-input{
+    outline: none;
+    width: 100%;
+    border: solid 2px #dadce0;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: rgba(0,0,0,.9);
+    font-weight: 600;
+    font-size: 13px;
+    padding: 10px 20px;
+}
+.modal-task-type{
+    display: flex;
+    padding: 10px;
+    transition: 0.5s;
+}
+.modal-task-type:hover{
+    background-color: #eee;
+    transition: 0.5s;
+}
+.modal-task-title{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    display: block;
+}
+.modal-task-subtitle{
+    margin-top: 4px;
+    font-size: 14px;
+    color: #888888;
+}
+.modal-task-ill{
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+.checkbox-editor{
+    width: 20px;
+    height: 20px;
+}
+.input-checkbox-editor{
+    width: 100%;
+    border: none;
+    background-color: #f7f7fc;
+    padding: 10px;
+}
+.input-checkbox-editor:active, .input-checkbox-editor:focus{
+    border: none;
+    background-color: #fff;
+}
+@media (max-width: 768px) {
+    .modal-task-subtitle{
+        font-size: 12px;
+    }
+}

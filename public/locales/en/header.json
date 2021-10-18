@@ -1,0 +1,12 @@
+{
+  "main": "Main",
+  "courses" : "Courses",
+  "plans": "Plans",
+  "contacts": "Contacts",
+  "start": "Get started",
+  "dashboard": "Dashboard",
+  "teaching": "Teaching",
+  "settings": "Settings",
+  "exit": "Exit",
+  "results": "Search results"
+}

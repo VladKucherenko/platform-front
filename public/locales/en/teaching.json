@@ -1,0 +1,18 @@
+{
+  "title": "Created courses",
+  "subtitle": "Ready to teach someone something new?",
+  "teaching": "Teaching",
+  "ohUh": "Uh-oh...",
+  "noCourse": "You don`t have any created courses yet",
+  "createCourse": "Let`s create new course",
+  "lessons": "lessons",
+  "view": "View course",
+  "change": "Change",
+  "delete": "Delete course",
+  "private": "Private",
+  "public": "Public",
+  "sure": "Are you sure?",
+  "want": "Do you want to permanently delete everything now?",
+  "yesDelete": "Yes, delete",
+  "close": "Close"
+}
