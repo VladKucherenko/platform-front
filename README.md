@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 # Run app on your machine
 
-1. Clone app to your computer (`git clone https://github.com/Algoritm211/platform-lem.git`)
+1. Clone app to your computer (`https://github.com/VladKucherenko/platform-front.git`)
 2. Run `npm install` to install all libraries (dependencies) of project
 3. Make `.env.local` file in root directory of project, there set address of your backend
 example:
